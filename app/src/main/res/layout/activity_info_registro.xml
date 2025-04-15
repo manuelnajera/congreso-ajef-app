@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.meb1.manuel.congresoajef.InfoRegistro">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="67dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/foto_del_ajefista"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/anon_user_48dp"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+
+
+    <TextView
+        android:id="@+id/nombreView"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:visibility="visible"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="47dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp" />
+
+    <TextView
+        android:id="@+id/estadoView"
+        android:layout_width="140dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombreView"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/tallerView"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginStart="21dp"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/estadoView"
+        app:layout_constraintLeft_toRightOf="@+id/estadoView"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <TextView
+        android:id="@+id/alergiaView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/tallerView"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <CheckedTextView
+        android:id="@+id/coopChia"
+        android:layout_width="115dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:checkMark="@drawable/done_check_mark"
+        android:text="@string/aportaci_n_estatal"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintVertical_bias="0.421"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <CheckedTextView
+        android:id="@+id/inscripCheck"
+        android:layout_width="118dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:checked="true"
+        android:text="@string/inscripci_n"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <CheckedTextView
+        android:id="@+id/hospedajeView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/hotel_sede"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/inscripCheck"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/habitView"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="141dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:inputType="number"
+        android:lines="1"
+        android:maxLines="1"
+        android:textColorLink="?android:attr/textColorPrimaryInverse"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/hospedajeView"
+        app:layout_constraintRight_toRightOf="@+id/estadoView"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/nombreView"
+        app:layout_constraintTop_toTopOf="@+id/hospedajeView" />
+
+    <RelativeLayout
+        android:id="@+id/perfil_info_view_admin"
+        android:layout_width="0dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="385dp"
+        android:visibility="visible"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <CheckBox
+            android:id="@+id/oratoriaBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/oratoria"
+            android:visibility="visible" />
+
+        <CheckBox
+            android:id="@+id/declamacionBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/oratoriaBox2"
+            android:layout_alignBottom="@+id/oratoriaBox2"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/oratoriaBox2"
+            android:layout_toRightOf="@+id/oratoriaBox2"
+            android:text="@string/declamaci_n"
+            android:visibility="visible" />
+
+        <CheckBox
+            android:id="@+id/ajedrezView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/futbolBox2"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_toEndOf="@+id/declamacionBox2"
+            android:layout_toRightOf="@+id/declamacionBox2"
+            android:text="@string/ajedrez"
+            android:visibility="visible" />
+
+        <CheckBox
+            android:id="@+id/dominoBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/oratoriaBox2"
+            android:layout_toLeftOf="@+id/declamacionBox2"
+            android:layout_toStartOf="@+id/declamacionBox2"
+            android:text="@string/domin"
+            android:visibility="visible" />
+
+        <CheckBox
+            android:id="@+id/cuentoBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/declamacionBox2"
+            android:layout_alignStart="@+id/declamacionBox2"
+            android:layout_below="@+id/declamacionBox2"
+            android:text="@string/cuento"
+            android:visibility="visible" />
+
+        <CheckBox
+            android:id="@+id/futbolBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ajedrezView2"
+            android:layout_alignStart="@+id/ajedrezView2"
+            android:layout_below="@+id/declamacionBox2"
+            android:text="@string/futbol"
+            android:visibility="visible" />
+
+        <CheckBox
+            android:id="@+id/basquetBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dominoBox2"
+            android:layout_alignStart="@+id/dominoBox2"
+            android:layout_below="@+id/dominoBox2"
+            android:text="@string/basquetbol"
+            android:visibility="visible" />
+
+        <CheckBox
+            android:id="@+id/cantoBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/basquetBox2"
+            android:layout_alignBottom="@+id/basquetBox2"
+            android:layout_toEndOf="@+id/basquetBox2"
+            android:layout_toRightOf="@+id/basquetBox2"
+            android:text="@string/canto"
+            android:visibility="visible" />
+
+        <CheckBox
+            android:id="@+id/premioBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/basquetBox2"
+            android:layout_marginTop="11dp"
+            android:layout_toEndOf="@+id/dominoBox2"
+            android:layout_toRightOf="@+id/dominoBox2"
+            android:text="@string/premio_nacional_ajef"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/eventosTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="61dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alergiaView"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/dietaView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alergiaView"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <CheckBox
+        android:id="@+id/cenaBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cena_gala"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/coopChia"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/coopChia" />
+
+</android.support.constraint.ConstraintLayout>

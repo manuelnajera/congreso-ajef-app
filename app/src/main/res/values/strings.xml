@@ -1,0 +1,78 @@
+<resources>
+
+    <string name="app_name">Congreso Ajef</string>
+    <string name="escanear_qr" translatable="false">Escanear identificación</string>
+    <string name="nombre_usuario" translatable="false">Nombre completo</string>
+    <string name="foto_del_ajefista" translatable="false">Foto del ajefista</string>
+    <string name="error_camara" translatable="false">Error en la cámara</string>
+    <string name="cancelar" translatable="false">Cancelar</string>
+    <string name="escaneo_correcto" translatable="false">Identificado!</string>
+    <string name="escaneo_incorrecto" translatable="false">ID no coincide con la base de datos. Contacte a algun organizador.</string>
+    <string name="reiniciar" translatable="false">Reintentar</string>
+    <string name="facebook_app_id" translatable="false">1116098815157466</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1116098815157466</string>
+    <string name="label_google_sign_in" translatable="false">Firebase + Google Sign In</string>
+    <string name="desc_google_sign_in" translatable="false">Use a Google Sign In credential to authenticate with Firebase.</string>
+
+    <string name="label_facebook_login" translatable="false">Firebase + Facebook Login</string>
+    <string name="desc_facebook_login" translatable="false">Use a Facebook Login credential to authenticate with Firebase.</string>
+    <string name="title_activity_login">Congreso AJEF </string>
+    <string name="auth_failed">Falló la autenticaciín</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Registrar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Esta dirección es inválida</string>
+    <string name="error_invalid_password">La contraseña es demasiado corta</string>
+    <string name="error_incorrect_password">Contraseña incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="login">Login</string>
+    <string name="inicia_sesi_n_con_google">Inicia sesión con Google</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="recordar_contrase_a">Recordar contraseña</string>
+    <string name="alergia">Alergias: %1$s </string>
+    <string name="aportaci_n_estatal">Aportación estatal</string>
+    <string name="regresar">Regresar</string>
+    <string name="inscripci_n">Inscripción</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="hotel_sede">Hotel sede</string>
+    <string name="habitacion_num">Habitación: %1$s </string>
+    <string name="image_content_ajef">Logo del congreso</string>
+    <string name="organizadores">Organizadores</string>
+    <string name="men_principal">Menú Principal</string>
+    <string name="nombre_bienvenida">Hola %1$s</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="vincular">Vincular</string>
+    <string name="vincula_cuenta_pregunta">¿Asistes al Congreso AJEF Chiapas 2017? ¡Vincula tu cuenta!</string>
+    <string name="vincular_info">Escanea el código de identificación que viene en tu pase del congreso, junto a tu nombre.</string>
+    <string name="ajedrez">Ajedrez</string>
+    <string name="basquetbol">Basquetbol</string>
+    <string name="canto">Canto</string>
+    <string name="cuento">Cuento</string>
+    <string name="declamaci_n">Declamación</string>
+    <string name="domin">Dominó</string>
+    <string name="futbol">Futbol</string>
+    <string name="oratoria">Oratoria</string>
+    <string name="premio_nacional_ajef">Premio Nacional AJEF</string>
+    <string name="eventoChange">Deseas cancelar tu asistencia al evento de %1$s</string>
+    <string name="eventoUp">Deseas confirmar tu asistencia al evento de %1$s</string>
+    <string name="habViewIntro">Hotel: Fiesta Inn;          Hab: %1$s </string>
+    <string name="contacto_emergencia">Contacto / Emergencia</string>
+    <string name="itinerario">Itinerario</string>
+    <string name="turismo">Turismo</string>
+
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+
+    <string name="title_activity_itinerario">itinerarioActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="radio_taxi_5_estrellas_52_961_616_8010">Radio Taxi 5 Estrellas : +52 961 616 8010</string>
+    <string name="radio_taxi_jaguar_52_961_612_6786">Radio Taxi Jaguar : +52 961 612 6786</string>
+    <string name="activar_flash">Activar flash</string>
+    <string name="cena_gala">Cena gala</string>
+</resources>
