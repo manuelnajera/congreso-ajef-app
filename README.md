@@ -32,7 +32,7 @@ settings.gradle
 README.en.md
 README.es.md
 LICENSE
-...
+```
 
 ## 📜 License
 
