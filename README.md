@@ -29,7 +29,7 @@ app/
 gradle/
 build.gradle
 settings.gradle
-README.en.md
+README.md
 README.es.md
 LICENSE
 ```
