@@ -23,13 +23,16 @@ Initial registration was handled via Google Forms. The collected data was manual
 - Google Forms (registration)
 
 ## 📁 Project Structure
+
+```
 app/
 gradle/
 build.gradle
 settings.gradle
-README.md
-README-es.md
+README.en.md
+README.es.md
 LICENSE
+...
 
 ## 📜 License
 
